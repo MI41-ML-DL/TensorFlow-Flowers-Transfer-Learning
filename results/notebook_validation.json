@@ -1,0 +1,14 @@
+[
+  {
+    "notebook": "00_Results_and_Defense.ipynb",
+    "code_cells_executed": 20,
+    "errors": 0,
+    "backend": "in-process IPython, socket-free"
+  },
+  {
+    "notebook": "01_Transfer_Learning_Flowers.ipynb",
+    "code_cells_executed": 26,
+    "errors": 0,
+    "backend": "in-process IPython, socket-free"
+  }
+]

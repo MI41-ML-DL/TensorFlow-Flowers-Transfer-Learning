@@ -1,0 +1,47 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+  "cpu": "x86_64",
+  "logical_cpus": 2,
+  "gpu": [],
+  "packages": {
+    "tensorflow": "2.20.0",
+    "keras": "3.15.1",
+    "tensorflow-datasets": "4.9.9",
+    "numpy": "2.5.4",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "Pillow": "13.0.0",
+    "joblib": "1.5.3"
+  },
+  "config": {
+    "seed": 42,
+    "image_size": 224,
+    "batch_size": 32,
+    "threads": 6,
+    "warmup_epochs": 3,
+    "fine_tune_epochs": 6,
+    "warmup_learning_rate": 0.001,
+    "fine_tune_learning_rate": 1e-05,
+    "dropout": 0.25,
+    "unfreeze_last": [
+      0,
+      10,
+      20,
+      35,
+      50,
+      75,
+      100,
+      115,
+      155
+    ],
+    "early_stopping_patience": 2,
+    "cache_frozen_prefix": true,
+    "keep_prefix_cache": false,
+    "random_forest_trees": 300
+  },
+  "note": "Extension run on 01.11.2026: VGG16 features, 9-pair benchmark, freeze policies 10/35/75/115/155, finalize, plots, audit, reports and notebooks. The original run is described in runtime.json."
+}

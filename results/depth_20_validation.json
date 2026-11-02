@@ -1,0 +1,20 @@
+{
+  "unfreeze_last": 20,
+  "total_backbone_layers": 155,
+  "frozen_layers": 142,
+  "trainable_layer_flags": 13,
+  "weighted_trainable_layers": 6,
+  "trainable_backbone_params": 1041280,
+  "frozen_batchnorm_layers": 52,
+  "prefix_equivalence_max_abs_error": 0.0,
+  "val_accuracy": 0.9054545164108276,
+  "val_loss": 0.2546374797821045,
+  "val_macro_f1": 0.9032438415400563,
+  "epochs_run": 6,
+  "restored_epoch": 6,
+  "prefix_cache_seconds": 47.00626150400001,
+  "total_seconds": 74.16606431900004,
+  "shared_warmup_epochs": 3,
+  "fine_tune_learning_rate": 1e-05,
+  "prefix_cached": true
+}

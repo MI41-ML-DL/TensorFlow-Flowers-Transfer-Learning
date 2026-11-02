@@ -1,0 +1,32 @@
+{
+  "criterion": "restored-checkpoint validation accuracy, then lower val loss",
+  "best_unfreeze_last": 155,
+  "validation": {
+    "unfreeze_last": 155,
+    "total_backbone_layers": 155,
+    "frozen_layers": 52,
+    "trainable_layer_flags": 103,
+    "weighted_trainable_layers": 52,
+    "trainable_backbone_params": 2189760,
+    "frozen_batchnorm_layers": 52,
+    "prefix_equivalence_max_abs_error": 0.0,
+    "val_accuracy": 0.9254545569419861,
+    "val_loss": 0.22492004930973053,
+    "val_macro_f1": 0.9237706921641721,
+    "epochs_run": 6,
+    "restored_epoch": 5,
+    "prefix_cache_seconds": 7.407715032999931,
+    "total_seconds": 791.8705264560003,
+    "shared_warmup_epochs": 3,
+    "fine_tune_learning_rate": 1e-05,
+    "prefix_cached": true
+  },
+  "test_used_for_selection": false,
+  "test": {
+    "accuracy": 0.9183303085299456,
+    "macro_f1": 0.9170512662619977,
+    "weighted_f1": 0.9184460041170863,
+    "test_loss": 0.23840957880020142
+  },
+  "n_test": 551
+}

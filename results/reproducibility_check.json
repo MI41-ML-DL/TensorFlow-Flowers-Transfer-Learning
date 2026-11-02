@@ -1,0 +1,29 @@
+{
+  "policy": 20,
+  "purpose": "Check that the extension machine reproduces an original freeze-depth run before adding new policies.",
+  "original": {
+    "val_accuracy": 0.9054545164108276,
+    "val_loss": 0.2546374797821045,
+    "val_macro_f1": 0.9032438415400563,
+    "epochs_run": 6,
+    "restored_epoch": 6,
+    "trainable_backbone_params": 1041280
+  },
+  "rerun": {
+    "val_accuracy": 0.9054545164108276,
+    "val_loss": 0.2547244727611542,
+    "val_macro_f1": 0.9032438415400563,
+    "epochs_run": 6,
+    "restored_epoch": 6,
+    "trainable_backbone_params": 1041280
+  },
+  "abs_difference": {
+    "val_accuracy": 0.0,
+    "val_loss": 8.699297904968262e-05,
+    "val_macro_f1": 0.0,
+    "epochs_run": 0,
+    "restored_epoch": 0,
+    "trainable_backbone_params": 0
+  },
+  "conclusion": "Identical validation accuracy, macro-F1, epochs and restored checkpoint; val loss differs only by float round-off."
+}

@@ -1,0 +1,522 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "Official sample count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "One subset per duplicate group",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Five classes in every split",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No shared content hashes: train/val",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No shared content hashes: train/test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No shared content hashes: val/test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "9 validation and 9 test records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2 train feature IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2 train feature labels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2 val feature IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2 val feature labels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2 test feature IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2 test feature labels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_logreg: matrix matches predictions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_logreg: test order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_logreg: persisted estimator",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_logreg: metrics recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_logreg: scaler fitted only on train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_svm: matrix matches predictions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_svm: test order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_svm: persisted estimator",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_svm: metrics recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_svm: scaler fitted only on train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_randomforest: matrix matches predictions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_randomforest: test order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_randomforest: persisted estimator",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobilenetv2_randomforest: metrics recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50 train feature IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50 train feature labels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50 val feature IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50 val feature labels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50 test feature IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50 test feature labels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_logreg: matrix matches predictions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_logreg: test order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_logreg: persisted estimator",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_logreg: metrics recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_logreg: scaler fitted only on train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_svm: matrix matches predictions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_svm: test order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_svm: persisted estimator",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_svm: metrics recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_svm: scaler fitted only on train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_randomforest: matrix matches predictions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_randomforest: test order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_randomforest: persisted estimator",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "resnet50_randomforest: metrics recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16 train feature IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16 train feature labels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16 val feature IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16 val feature labels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16 test feature IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16 test feature labels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_logreg: matrix matches predictions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_logreg: test order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_logreg: persisted estimator",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_logreg: metrics recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_logreg: scaler fitted only on train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_svm: matrix matches predictions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_svm: test order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_svm: persisted estimator",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_svm: metrics recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_svm: scaler fitted only on train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_randomforest: matrix matches predictions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_randomforest: test order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_randomforest: persisted estimator",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "vgg16_randomforest: metrics recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Winner follows validation ranking",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "9 predeclared freeze policies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen plus trainable flags equals total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Selected CNN policy follows validation ranking",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Selected CNN: matrix matches predictions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Selected CNN: test metrics recompute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Selected CNN: test order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every policy uses shared warmup and learning rate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Depth 0: frozen weights unchanged",
+      "passed": true,
+      "detail": "max delta=0.0"
+    },
+    {
+      "check": "Depth 0: expected trainable updates",
+      "passed": true,
+      "detail": "changed trainable tensors=0"
+    },
+    {
+      "check": "Depth 0: BatchNorm frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Depth 10: frozen weights unchanged",
+      "passed": true,
+      "detail": "max delta=0.0"
+    },
+    {
+      "check": "Depth 10: expected trainable updates",
+      "passed": true,
+      "detail": "changed trainable tensors=3"
+    },
+    {
+      "check": "Depth 10: BatchNorm frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Depth 20: frozen weights unchanged",
+      "passed": true,
+      "detail": "max delta=0.0"
+    },
+    {
+      "check": "Depth 20: expected trainable updates",
+      "passed": true,
+      "detail": "changed trainable tensors=6"
+    },
+    {
+      "check": "Depth 20: BatchNorm frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Depth 35: frozen weights unchanged",
+      "passed": true,
+      "detail": "max delta=0.0"
+    },
+    {
+      "check": "Depth 35: expected trainable updates",
+      "passed": true,
+      "detail": "changed trainable tensors=12"
+    },
+    {
+      "check": "Depth 35: BatchNorm frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Depth 50: frozen weights unchanged",
+      "passed": true,
+      "detail": "max delta=0.0"
+    },
+    {
+      "check": "Depth 50: expected trainable updates",
+      "passed": true,
+      "detail": "changed trainable tensors=16"
+    },
+    {
+      "check": "Depth 50: BatchNorm frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Depth 75: frozen weights unchanged",
+      "passed": true,
+      "detail": "max delta=0.0"
+    },
+    {
+      "check": "Depth 75: expected trainable updates",
+      "passed": true,
+      "detail": "changed trainable tensors=25"
+    },
+    {
+      "check": "Depth 75: BatchNorm frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Depth 100: frozen weights unchanged",
+      "passed": true,
+      "detail": "max delta=0.0"
+    },
+    {
+      "check": "Depth 100: expected trainable updates",
+      "passed": true,
+      "detail": "changed trainable tensors=33"
+    },
+    {
+      "check": "Depth 100: BatchNorm frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Depth 115: frozen weights unchanged",
+      "passed": true,
+      "detail": "max delta=0.0"
+    },
+    {
+      "check": "Depth 115: expected trainable updates",
+      "passed": true,
+      "detail": "changed trainable tensors=38"
+    },
+    {
+      "check": "Depth 115: BatchNorm frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Depth 155: frozen weights unchanged",
+      "passed": true,
+      "detail": "max delta=0.0"
+    },
+    {
+      "check": "Depth 155: expected trainable updates",
+      "passed": true,
+      "detail": "changed trainable tensors=52"
+    },
+    {
+      "check": "Depth 155: BatchNorm frozen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 36 figures exist",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "manifest_sha256": "a10282424e8d9cd6e5097494357155ee29721f266ed81f409dbe548d3c255893",
+  "note": "Metric and serialization checks reuse saved test predictions; no model selection is repeated."
+}

@@ -1,0 +1,13 @@
+{
+  "extractor": "resnet50",
+  "classifier": "svm",
+  "criterion": "validation macro-F1, then accuracy",
+  "validation_metrics": {
+    "accuracy": 0.9090909090909091,
+    "macro_f1": 0.9071263834190664,
+    "weighted_f1": 0.9096821713407078
+  },
+  "manifest_sha256": "a10282424e8d9cd6e5097494357155ee29721f266ed81f409dbe548d3c255893",
+  "test_used_for_selection": false,
+  "predeclared_candidates": 9
+}

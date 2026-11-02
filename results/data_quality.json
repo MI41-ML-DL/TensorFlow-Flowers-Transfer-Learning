@@ -1,0 +1,19 @@
+{
+  "source": "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz",
+  "archive_sha256": "4c54ace7911aaffe13a365c34f650e71dd5bf1be0a58b464e5a7183e3e595d9c",
+  "label_source": "tensorflow_datasets.builder('tf_flowers').info.features['label'].names",
+  "raw_images": 3670,
+  "unique_file_hashes": 3667,
+  "duplicate_groups": 3,
+  "conflicting_label_groups": 1,
+  "duplicate_groups_crossing_splits": 0,
+  "split_method": "stratified 70/15/15 on unique SHA-256 groups; all original records retained",
+  "split_counts": {
+    "train": 2569,
+    "test": 551,
+    "val": 550
+  },
+  "manifest_sha256": "a10282424e8d9cd6e5097494357155ee29721f266ed81f409dbe548d3c255893",
+  "seed": 42,
+  "warning": "Exact duplicates are grouped; near-duplicates are not exhaustively audited."
+}
