@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "image_size": 224,
+  "batch_size": 32,
+  "threads": 6,
+  "warmup_epochs": 3,
+  "fine_tune_epochs": 6,
+  "warmup_learning_rate": 0.001,
+  "fine_tune_learning_rate": 1e-05,
+  "dropout": 0.25,
+  "unfreeze_last": [
+    0,
+    10,
+    20,
+    35,
+    50,
+    75,
+    100,
+    115,
+    155
+  ],
+  "early_stopping_patience": 2,
+  "cache_frozen_prefix": true,
+  "keep_prefix_cache": false,
+  "random_forest_trees": 300
+}
