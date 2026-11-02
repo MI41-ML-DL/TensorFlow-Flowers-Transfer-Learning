@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+data/flower_photos/
+data/downloads/
+results/cache/
+results/features/
+models/*.h5
+models/*.keras
+models/*.joblib
