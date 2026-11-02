@@ -1,0 +1,17 @@
+true_class,pred_class,count
+tulips,roses,17
+daisy,roses,6
+dandelion,sunflowers,5
+roses,tulips,5
+daisy,dandelion,4
+sunflowers,dandelion,4
+sunflowers,tulips,3
+daisy,tulips,2
+roses,sunflowers,2
+tulips,dandelion,2
+dandelion,roses,1
+roses,daisy,1
+roses,dandelion,1
+sunflowers,roses,1
+tulips,daisy,1
+tulips,sunflowers,1
