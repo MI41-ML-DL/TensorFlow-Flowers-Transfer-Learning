@@ -1,0 +1,20 @@
+{
+  "fingerprint": {
+    "manifest_sha256": "a10282424e8d9cd6e5097494357155ee29721f266ed81f409dbe548d3c255893",
+    "image_size": 224,
+    "model": "resnet50",
+    "weights": "imagenet",
+    "preprocessing": "keras.applications.resnet50",
+    "tensorflow": "2.20.0"
+  },
+  "class_names": [
+    "dandelion",
+    "daisy",
+    "tulips",
+    "sunflowers",
+    "roses"
+  ],
+  "feature_dim": 2048,
+  "extraction_seconds": 95.366441517,
+  "backbone_params": 23587712
+}
