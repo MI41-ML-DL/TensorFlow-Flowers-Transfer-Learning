@@ -1,0 +1,14 @@
+Epoch 1/6
+81/81 - 122s - 2s/step - accuracy: 0.9039 - loss: 0.2708 - val_accuracy: 0.9127 - val_loss: 0.2633
+Epoch 2/6
+81/81 - 140s - 2s/step - accuracy: 0.9295 - loss: 0.1826 - val_accuracy: 0.9091 - val_loss: 0.2629
+Epoch 3/6
+81/81 - 142s - 2s/step - accuracy: 0.9568 - loss: 0.1275 - val_accuracy: 0.9109 - val_loss: 0.2586
+Epoch 4/6
+81/81 - 107s - 1s/step - accuracy: 0.9677 - loss: 0.1057 - val_accuracy: 0.9055 - val_loss: 0.2662
+Epoch 5/6
+81/81 - 108s - 1s/step - accuracy: 0.9809 - loss: 0.0737 - val_accuracy: 0.9255 - val_loss: 0.2249
+Epoch 6/6
+81/81 - 107s - 1s/step - accuracy: 0.9856 - loss: 0.0522 - val_accuracy: 0.9200 - val_loss: 0.2379
+FREEZE RESULT {'unfreeze_last': 155, 'total_backbone_layers': 155, 'frozen_layers': 52, 'trainable_layer_flags': 103, 'weighted_trainable_layers': 52, 'trainable_backbone_params': 2189760, 'frozen_batchnorm_layers': 52, 'prefix_equivalence_max_abs_error': 0.0, 'val_accuracy': 0.9254545569419861, 'val_loss': 0.22492004930973053, 'val_macro_f1': 0.9237706921641721, 'epochs_run': 6, 'restored_epoch': 5, 'prefix_cache_seconds': 7.407715032999931, 'total_seconds': 791.8705264560003, 'shared_warmup_epochs': 3, 'fine_tune_learning_rate': 1e-05, 'prefix_cached': True}
+Completed freeze: 794.0 s

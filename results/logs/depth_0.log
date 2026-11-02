@@ -1,0 +1,17 @@
+/workspace/scratch/780f56dbf1ab/work/.venv/lib/python3.12/site-packages/keras/src/trainers/epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/6
+81/81 - 1s - 13ms/step - accuracy: 0.9015 - loss: 0.2914 - val_accuracy: 0.8945 - val_loss: 0.3240
+Epoch 2/6
+81/81 - 0s - 6ms/step - accuracy: 0.9004 - loss: 0.2953 - val_accuracy: 0.8945 - val_loss: 0.3232
+Epoch 3/6
+81/81 - 0s - 4ms/step - accuracy: 0.8984 - loss: 0.2921 - val_accuracy: 0.8927 - val_loss: 0.3231
+Epoch 4/6
+81/81 - 0s - 3ms/step - accuracy: 0.9042 - loss: 0.2946 - val_accuracy: 0.8909 - val_loss: 0.3231
+Epoch 5/6
+81/81 - 0s - 4ms/step - accuracy: 0.9046 - loss: 0.2875 - val_accuracy: 0.8891 - val_loss: 0.3233
+Epoch 6/6
+81/81 - 0s - 5ms/step - accuracy: 0.9050 - loss: 0.2820 - val_accuracy: 0.8909 - val_loss: 0.3232
+2026-10-31 20:48:31.219826: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+FREEZE RESULT {'unfreeze_last': 0, 'total_backbone_layers': 155, 'frozen_layers': 155, 'trainable_layer_flags': 0, 'weighted_trainable_layers': 0, 'trainable_backbone_params': 0, 'frozen_batchnorm_layers': 52, 'val_accuracy': 0.8909090757369995, 'val_loss': 0.32310038805007935, 'val_macro_f1': 0.8886964034716242, 'epochs_run': 6, 'restored_epoch': 4, 'prefix_cache_seconds': 0.0, 'total_seconds': 4.960025849999965, 'shared_warmup_epochs': 3, 'fine_tune_learning_rate': 1e-05, 'prefix_cached': False}
+Completed freeze: 6.7 s

@@ -1,0 +1,10 @@
+Epoch 1/6
+81/81 - 49s - 607ms/step - accuracy: 0.9046 - loss: 0.2713 - val_accuracy: 0.9127 - val_loss: 0.2686
+Epoch 2/6
+81/81 - 40s - 491ms/step - accuracy: 0.9288 - loss: 0.1892 - val_accuracy: 0.9127 - val_loss: 0.2637
+Epoch 3/6
+81/81 - 47s - 584ms/step - accuracy: 0.9541 - loss: 0.1368 - val_accuracy: 0.9073 - val_loss: 0.2643
+Epoch 4/6
+81/81 - 37s - 456ms/step - accuracy: 0.9665 - loss: 0.1145 - val_accuracy: 0.9018 - val_loss: 0.2701
+FREEZE RESULT {'unfreeze_last': 75, 'total_backbone_layers': 155, 'frozen_layers': 105, 'trainable_layer_flags': 50, 'weighted_trainable_layers': 25, 'trainable_backbone_params': 2012416, 'frozen_batchnorm_layers': 52, 'prefix_equivalence_max_abs_error': 0.0, 'val_accuracy': 0.9127272963523865, 'val_loss': 0.2637110650539398, 'val_macro_f1': 0.9111639888517654, 'epochs_run': 4, 'restored_epoch': 2, 'prefix_cache_seconds': 142.03095553899993, 'total_seconds': 326.13039010500006, 'shared_warmup_epochs': 3, 'fine_tune_learning_rate': 1e-05, 'prefix_cached': True}
+Completed freeze: 328.1 s

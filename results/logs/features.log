@@ -1,0 +1,26 @@
+split       test  train  val
+class_name                  
+dandelion    135    628  135
+daisy         95    443   95
+tulips       120    559  120
+sunflowers   105    490  104
+roses         96    449   96
+Manifest SHA-256: a10282424e8d9cd6e5097494357155ee29721f266ed81f409dbe548d3c255893
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/mobilenet_v2/mobilenet_v2_weights_tf_dim_ordering_tf_kernels_1.0_224_no_top.h5
+
+mobilenetv2 train 2569
+81/81 - 16s - 196ms/step
+mobilenetv2 val 550
+18/18 - 3s - 181ms/step
+mobilenetv2 test 551
+18/18 - 3s - 181ms/step
+mobilenetv2: 22.5 seconds
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+resnet50 train 2569
+81/81 - 67s - 830ms/step
+resnet50 val 550
+18/18 - 14s - 791ms/step
+resnet50 test 551
+18/18 - 14s - 767ms/step
+resnet50: 95.4 seconds

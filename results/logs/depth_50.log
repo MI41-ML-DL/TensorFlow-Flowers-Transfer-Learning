@@ -1,0 +1,21 @@
+
+/workspace/scratch/780f56dbf1ab/work/.venv/lib/python3.12/site-packages/keras/src/trainers/epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/6
+81/81 - 11s - 137ms/step - accuracy: 0.9035 - loss: 0.2740 - val_accuracy: 0.9109 - val_loss: 0.2766
+Epoch 2/6
+81/81 - 9s - 110ms/step - accuracy: 0.9272 - loss: 0.2012 - val_accuracy: 0.9127 - val_loss: 0.2687
+Epoch 3/6
+81/81 - 9s - 106ms/step - accuracy: 0.9490 - loss: 0.1512 - val_accuracy: 0.9000 - val_loss: 0.2716
+Epoch 4/6
+81/81 - 8s - 101ms/step - accuracy: 0.9568 - loss: 0.1310 - val_accuracy: 0.9109 - val_loss: 0.2708
+WARNING:tensorflow:AutoGraph could not transform <function run_policy.<locals>.<lambda> at 0x7f640903fc40> and will run it as-is.
+Cause: could not parse the source code of <function run_policy.<locals>.<lambda> at 0x7f640903fc40>: no matching AST found among candidates:
+# coding=utf-8
+lambda d: np.arange(1, len(d) + 1)
+# coding=utf-8
+lambda x, y: x
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+2026-10-31 20:49:16.489099: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+FREEZE RESULT {'unfreeze_last': 50, 'total_backbone_layers': 155, 'frozen_layers': 122, 'trainable_layer_flags': 33, 'weighted_trainable_layers': 16, 'trainable_backbone_params': 1779136, 'frozen_batchnorm_layers': 52, 'prefix_equivalence_max_abs_error': 0.0, 'val_accuracy': 0.9127272963523865, 'val_loss': 0.2686908543109894, 'val_macro_f1': 0.9106518720833678, 'epochs_run': 4, 'restored_epoch': 2, 'prefix_cache_seconds': 33.887001543999986, 'total_seconds': 74.06685340100012, 'shared_warmup_epochs': 3, 'fine_tune_learning_rate': 1e-05, 'prefix_cached': True}
+Completed freeze: 75.3 s

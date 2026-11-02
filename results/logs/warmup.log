@@ -1,0 +1,10 @@
+
+/workspace/scratch/780f56dbf1ab/work/.venv/lib/python3.12/site-packages/keras/src/trainers/epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/3
+81/81 - 1s - 7ms/step - accuracy: 0.7205 - loss: 0.7905 - val_accuracy: 0.8564 - val_loss: 0.4273
+Epoch 2/3
+81/81 - 0s - 1ms/step - accuracy: 0.8478 - loss: 0.4406 - val_accuracy: 0.8782 - val_loss: 0.3615
+Epoch 3/3
+81/81 - 0s - 1ms/step - accuracy: 0.8786 - loss: 0.3384 - val_accuracy: 0.8873 - val_loss: 0.3250
+Completed warmup: 1.2 s

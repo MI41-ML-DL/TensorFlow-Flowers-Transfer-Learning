@@ -1,0 +1,28 @@
+Training mobilenetv2_logreg
+{'extractor': 'mobilenetv2', 'classifier': 'logreg', 'split': 'val', 'accuracy': 0.8872727272727273, 'macro_f1': 0.8840466418085156, 'weighted_f1': 0.8867883434559959, 'fit_seconds': 0.4274837400000706, 'n': 550}
+Training mobilenetv2_svm
+{'extractor': 'mobilenetv2', 'classifier': 'svm', 'split': 'val', 'accuracy': 0.9036363636363637, 'macro_f1': 0.9021327523478367, 'weighted_f1': 0.9040012637937783, 'fit_seconds': 12.67796882399989, 'n': 550}
+Training mobilenetv2_randomforest
+{'extractor': 'mobilenetv2', 'classifier': 'randomforest', 'split': 'val', 'accuracy': 0.8781818181818182, 'macro_f1': 0.8757314411632319, 'weighted_f1': 0.8772420834341074, 'fit_seconds': 6.934941633000108, 'n': 550}
+Training resnet50_logreg
+{'extractor': 'resnet50', 'classifier': 'logreg', 'split': 'val', 'accuracy': 0.9036363636363637, 'macro_f1': 0.9011665055533771, 'weighted_f1': 0.903278666930378, 'fit_seconds': 0.8386304030000247, 'n': 550}
+Training resnet50_svm
+{'extractor': 'resnet50', 'classifier': 'svm', 'split': 'val', 'accuracy': 0.9090909090909091, 'macro_f1': 0.9071263834190664, 'weighted_f1': 0.9096821713407078, 'fit_seconds': 21.986194384999862, 'n': 550}
+Training resnet50_randomforest
+{'extractor': 'resnet50', 'classifier': 'randomforest', 'split': 'val', 'accuracy': 0.9054545454545454, 'macro_f1': 0.9038192266371384, 'weighted_f1': 0.9052601341940683, 'fit_seconds': 9.991296789999979, 'n': 550}
+Training vgg16_logreg
+{'extractor': 'vgg16', 'classifier': 'logreg', 'split': 'val', 'accuracy': 0.8618181818181818, 'macro_f1': 0.8591144733146733, 'weighted_f1': 0.8612789197041495, 'fit_seconds': 0.36889369599998645, 'n': 550}
+Training vgg16_svm
+{'extractor': 'vgg16', 'classifier': 'svm', 'split': 'val', 'accuracy': 0.8654545454545455, 'macro_f1': 0.8643979091572126, 'weighted_f1': 0.866983775779032, 'fit_seconds': 5.696607680999932, 'n': 550}
+Training vgg16_randomforest
+{'extractor': 'vgg16', 'classifier': 'randomforest', 'split': 'val', 'accuracy': 0.8654545454545455, 'macro_f1': 0.8646209020980115, 'weighted_f1': 0.8653974873299938, 'fit_seconds': 4.454688684000075, 'n': 550}
+TEST mobilenetv2_logreg {'accuracy': 0.8856624319419237, 'macro_f1': 0.8839446924405483, 'weighted_f1': 0.8851763877225007}
+TEST mobilenetv2_svm {'accuracy': 0.911070780399274, 'macro_f1': 0.9097375649973921, 'weighted_f1': 0.9111600358588675}
+TEST mobilenetv2_randomforest {'accuracy': 0.8638838475499092, 'macro_f1': 0.8619112115846912, 'weighted_f1': 0.8636737943270739}
+TEST resnet50_logreg {'accuracy': 0.911070780399274, 'macro_f1': 0.9090690537731531, 'weighted_f1': 0.9102996538340226}
+TEST resnet50_svm {'accuracy': 0.8983666061705989, 'macro_f1': 0.897076169342545, 'weighted_f1': 0.8989633527924369}
+TEST resnet50_randomforest {'accuracy': 0.9001814882032668, 'macro_f1': 0.8988831745548108, 'weighted_f1': 0.900245389971983}
+TEST vgg16_logreg {'accuracy': 0.8584392014519057, 'macro_f1': 0.85534147611673, 'weighted_f1': 0.8577710665245202}
+TEST vgg16_svm {'accuracy': 0.8548094373865699, 'macro_f1': 0.8512605224300243, 'weighted_f1': 0.8559527831408518}
+TEST vgg16_randomforest {'accuracy': 0.852994555353902, 'macro_f1': 0.849731961424283, 'weighted_f1': 0.8525647178329048}
+Completed benchmark: 77.0 s

@@ -1,0 +1,3 @@
+18/18 - 11s - 635ms/step
+SELECTED FREEZE TEST {'accuracy': 0.9183303085299456, 'macro_f1': 0.9170512662619977, 'weighted_f1': 0.9184460041170863, 'test_loss': 0.23840957880020142}
+Completed freeze-finalize: 43.2 s

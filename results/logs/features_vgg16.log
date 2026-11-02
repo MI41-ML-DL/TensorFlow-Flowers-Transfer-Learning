@@ -1,0 +1,8 @@
+vgg16 train 2569
+81/81 - 357s - 4s/step
+vgg16 val 550
+18/18 - 69s - 4s/step
+vgg16 test 551
+18/18 - 71s - 4s/step
+vgg16: 533.6 seconds
+Completed extract: 535.0 s
